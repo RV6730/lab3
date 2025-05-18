@@ -3,10 +3,17 @@
 
 using namespace std;
 
+int factorial(int n) {
+    if (n <= 1)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
 int main() {
     // Declare variables
     string name;
-    int age;
+    int age,n,fact;
     double height;
 
     // Prompt user for their name
@@ -27,5 +34,13 @@ int main() {
     cout << "Age: " << age << " years" << endl;
     cout << "Height: " << height << " cm" << endl;
 
+    //finding factorial
+    cout<<"enter the number to find factorial: ";
+    cin>>n;
+    fact=factorial(n);
+    cout<<"factorial is: "<<fact;
+
+
     return 0;
 }
+
