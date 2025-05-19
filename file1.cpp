@@ -40,11 +40,7 @@ int main() {
     cout << "Height: " << height << " cm" << endl;
 
 <<<<<<< HEAD
-    //adding two numbers
-    cout<<"enter any two numbers: ";
-    cin>>a>>b;
-    sum=a+b;
-    cout<<"sum of the entered two numbers is "<<sum;
+    // removed adding two numbers
 =======
     //finding factorial
     cout<<"enter the number to find factorial: ";
