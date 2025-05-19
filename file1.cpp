@@ -34,12 +34,6 @@ int main() {
     cout << "Age: " << age << " years" << endl;
     cout << "Height: " << height << " cm" << endl;
 
-    //finding factorial
-    cout<<"enter the number to find factorial: ";
-    cin>>n;
-    fact=factorial(n);
-    cout<<"factorial is: "<<fact;
-
 
     return 0;
 }
